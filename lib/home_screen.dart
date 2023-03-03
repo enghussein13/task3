@@ -93,21 +93,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-//SingleChildScrollView(
-//                   child: Column(
-//                     children: [
-//                       IconButton(onPressed: (){
-//                         setState((){
-//                           myList.add(listItem('Item $i',(){
-//                             myList.remove(myList[i-1]);
-//                           }));
-//                           i++;
-//                         });
-//                       }, icon: const Icon(Icons.add,size: 40,)),
-//                       Column(
-//                         children: myList,
-//                       )
-//
-//                     ],
-//                   ),
-//                 )

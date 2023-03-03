@@ -58,28 +58,6 @@ Widget defaultTextField({
 // -----------------------------------------------------------
 
 
-//-----------List Item ---------------
-Widget listItem (String item,var delete)=>Padding(
-  padding: const EdgeInsets.all(15.0),
-  child: Card(
-    child: Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 10.0),
-      child: Row(
-        children: [
-          Text(item,style:const TextStyle(
-              color: Colors.purple,
-              fontWeight: FontWeight.bold,
-              fontSize: 18
-          )),
-          const Spacer(),
-          IconButton(onPressed:delete , icon: const Icon(Icons.delete,color:Colors.purple,))
-        ],
-      ),
-    ),
-  ),
-);
-
-
 // This class is used as a custom widget to make the wave shape at the top of the screen
 
 class MyCustomClip extends CustomClipper<Path> {

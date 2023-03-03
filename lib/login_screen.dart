@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:register_screen/register_screen.dart';
-
 import 'home_screen.dart';
 import 'shared/components.dart';
 
